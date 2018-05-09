@@ -19,7 +19,6 @@ while getopts "hs:b:f:" opt; do
     esac
 done
 
-#studyfold='/sam5/elekta/maple'
 ctc=/neuro/databases/ctc/ct_sparse.fif
 cal=/neuro/databases/sss/sss_cal.dat
 stp2=lp  #name of the output fifles from the second step (low pass filter).
